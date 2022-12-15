@@ -2,7 +2,7 @@
 //
 // Created by: Kyanh Pham
 // Created on: Dec 2022
-// This program finds the largest number in an array
+// This program finds the smallest number in an array
 
 #include <time.h>
 #include <array>
@@ -11,7 +11,7 @@
 
 template <size_t N>
 int findSmallestNumber(std::array<int, N> listOfNumbers) {
-    // This function finds the largest number
+    // This function finds the smallest number
     int smallestNumber = listOfNumbers[0];
 
     for (int singleRandomNumber : listOfNumbers) {
